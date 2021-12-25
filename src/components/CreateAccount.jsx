@@ -33,7 +33,6 @@ const styles = StyleSheet.create({
 		color: "#EFEFEF",
 		textAlign: "center",
 		fontSize: 20,
-		fontWeight: "500"
 	},
 	createAccount: {
 		paddingTop: 10,

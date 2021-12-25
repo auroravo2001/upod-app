@@ -22,15 +22,10 @@ function App() {
 	return (
 		<NavigationContainer>
 			<Stack.Navigator
-				initialRouteName="Onboarding"
+				initialRouteName="PreferredLanguage"
 				screenOptions={globalOptions}
 			>
 				<Stack.Screen name="PreferredLanguage" component={PreferredLanguage} />
-				<Stack.Screen name="CreateAccount" component={CreateAccount} />
-				<Stack.Screen name="AboutYou" component={AboutYou} />
-				{/* <Stack.Screen name="Hi" component={Hi} /> */}
-				<Stack.Screen name="Hi" component={Hi} />
-				<Stack.Screen name="TellUsAboutYourself" component={TellUsAboutYourself} />
 				<Stack.Screen name="Onboarding" component={Onboarding} />
 				<Stack.Screen name="Login" component={Login} />
 				<Stack.Screen name="Signup" component={Signup} />

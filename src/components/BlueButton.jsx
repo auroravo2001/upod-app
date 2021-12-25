@@ -3,7 +3,7 @@ import { Pressable, StyleSheet, Text, View } from "react-native";
 
 const BlueButton = ({ textContent, navigation, onPress, ...props }) => {
 	return (
-		<Pressable onPress={onPress} {...props} style={styles.button}>
+		<Pressable onPress={onPress} {...props}>
 			<Text style={styles.text}>{textContent}</Text>
 		</Pressable>
 	);
@@ -12,18 +12,18 @@ const BlueButton = ({ textContent, navigation, onPress, ...props }) => {
 export default BlueButton;
 
 const styles = StyleSheet.create({
-	button: {
-		width: 275,
-		height: 49,
+	buttonContainer: {
 		backgroundColor: "#56C1FF",
-		justifyContent: "center",
-		alignItems: "center",
-		borderRadius: 100,
+		padding: 20,
+		borderRadius: 999,
 	},
 	text: {
-		textAlign: "center",
+		backgroundColor: "#56C1FF",
+		padding: 20,
+		borderRadius: 999,
 		color: "#EFEFEF",
-		fontSize: 16,
-		fontWeight: "700"
+		fontSize: 20,
+		paddingVertical: 15,
+		paddingHorizontal: 100,
 	},
 });
