@@ -13,11 +13,8 @@ import DropDownPicker from "react-native-dropdown-picker";
 
 const AboutYou = ({ navigation }) => {
 
-	const [userName, setUserName] = useState('');
 	// blue button submit handler
-	const onBlueButtonPress = () => navigation.navigate("Hi", {
-		paramKey: userName,
-	});
+	const onBlueButtonPress = () => navigation.push("Onboarding");
 	const { width } = useWindowDimensions();
 
 	const identities = ["Male", "Female", "Nonbinary", "Prefer not to say"];
@@ -32,7 +29,7 @@ const AboutYou = ({ navigation }) => {
 
 	return (
 		<SafeAreaView style={ styles.container }>
-            <Text style={ styles.heading4 }>
+            <Text style={ styles.heading }>
                 About You
             </Text>
             <Text style={ styles.subHeading1 }>
@@ -44,8 +41,6 @@ const AboutYou = ({ navigation }) => {
 				</Text>
 				<TextInput 
 					style={ styles.input }
-					value={ userName }
-					onChangeText= { (userName) => setUserName(userName)}
 				/>
 				<Text style={styles.labelText}>
 					Last Name
@@ -111,7 +106,7 @@ const styles = StyleSheet.create({
         fontSize: 12,
         color: "#EFEFEF"
     },
-    heading4: {
+    heading: {
         fontSize: 25,
         color: "#EFEFEF",
         fontWeight: "700",
