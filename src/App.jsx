@@ -7,13 +7,11 @@ import AdventureDetail from "./screens/AdventureDetail";
 import Login from "./screens/Login";
 import Signup from "./screens/Signup";
 import Onboarding from "./screens/Onboarding";
-<<<<<<< HEAD
-=======
 import PreferredLanguage from "./screens/CreateAccount/PreferredLanguage";
 import CreateAccount from "./screens/CreateAccount/CreateAccount";
 import AboutYou from "./screens/CreateAccount/AboutYou";
 import Hi from "./screens/CreateAccount/Hi";
->>>>>>> 93e0273 (add create-account and about you screens)
+import TellUsAboutYourself from "./screens/CreateAccount/TellUsAboutYourself";
 
 const Stack = createNativeStackNavigator();
 
@@ -27,13 +25,12 @@ function App() {
 				initialRouteName="Onboarding"
 				screenOptions={globalOptions}
 			>
-<<<<<<< HEAD
-=======
 				<Stack.Screen name="PreferredLanguage" component={PreferredLanguage} />
 				<Stack.Screen name="CreateAccount" component={CreateAccount} />
 				<Stack.Screen name="AboutYou" component={AboutYou} />
 				{/* <Stack.Screen name="Hi" component={Hi} /> */}
->>>>>>> 93e0273 (add create-account and about you screens)
+				<Stack.Screen name="Hi" component={Hi} />
+				<Stack.Screen name="TellUsAboutYourself" component={TellUsAboutYourself} />
 				<Stack.Screen name="Onboarding" component={Onboarding} />
 				<Stack.Screen name="Login" component={Login} />
 				<Stack.Screen name="Signup" component={Signup} />
