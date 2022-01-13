@@ -7,6 +7,8 @@ import {
 
 import CreateAccount from "../../components/CreateAccount";
 import BlueButton from "../../components/BlueButton";
+import DropDownPicker from "react-native-dropdown-picker";
+
 
 const PreferredLanguage = ({ navigation }) => {
 	// state for the dropdown:
