@@ -7,6 +7,7 @@ import AdventureDetail from "./screens/AdventureDetail";
 import Login from "./screens/Login";
 import Signup from "./screens/Signup";
 import Onboarding from "./screens/Onboarding";
+import Profile from "./screens/Profile";
 
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +22,7 @@ function App() {
 				screenOptions={globalOptions}
 			>
 				<Stack.Screen name="Onboarding" component={Onboarding} />
+				<Stack.Screen name="Profile" component={Profile} />
 				<Stack.Screen name="Login" component={Login} />
 				<Stack.Screen name="Signup" component={Signup} />
 				<Stack.Screen name="Home" component={Home} />

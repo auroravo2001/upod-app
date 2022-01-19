@@ -4,7 +4,7 @@ import ExampleComponent from "../components/ExampleComponent";
 
 const Onboarding = ({ navigation }) => {
 	const nextPress = () => {
-		navigation.navigate("Signup");
+		navigation.navigate("Profile");
 	};
 	return (
 		<View style={styles.container}>
