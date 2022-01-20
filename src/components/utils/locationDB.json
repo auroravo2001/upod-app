@@ -1,0 +1,58 @@
+{
+    "locations" : [
+        {
+            "id": 1,
+            "city": "San Francisco",
+            "state": "California",
+            "country": "United States"
+        },
+        {
+            "id": 2,
+            "city": "New York City",
+            "state": "New York",
+            "country": "United States"
+        },
+        {
+            "id": 3,
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States"
+        },
+        {
+            "id": 4,
+            "city": "Toronto",
+            "state": "Ontario",
+            "country": "Canada"
+        },
+        {
+            "id": 5,
+            "city": "Montreal",
+            "state": "Quebec",
+            "country": "Canada"
+        },
+        {
+            "id": 6,
+            "city": "San Jose",
+            "state": "California",
+            "country": "United States"
+        },
+        {
+            "id": 7,
+            "city": "Santa Clara",
+            "state": "California",
+            "country": "United States"
+        },
+        {
+            "id": 8,
+            "city": "San Mateo",
+            "state": "California",
+            "country": "United States"
+        },
+        {
+            "id": 9,
+            "city": "San Diego",
+            "state": "California",
+            "country": "United States"
+        }
+    ]
+}
