@@ -10,6 +10,7 @@ import Onboarding from "./screens/Onboarding";
 import Album from "./screens/AddProfilePic/Album";
 import VerifyPhoto from "./screens/AddProfilePic/VerifyPhoto";
 import VerifyMobileAndEmail from "./screens/Verify/VerifyMobileAndEmail";
+import Profile from "./screens/Profile";
 
 const Stack = createNativeStackNavigator();
 
@@ -24,6 +25,7 @@ function App() {
 				screenOptions={globalOptions}
 			>
 				<Stack.Screen name="Onboarding" component={Onboarding} />
+				<Stack.Screen name="Profile" component={Profile} />
 				<Stack.Screen name="Login" component={Login} />
 				<Stack.Screen name="Signup" component={Signup} />
 				<Stack.Screen name="Home" component={Home} />
