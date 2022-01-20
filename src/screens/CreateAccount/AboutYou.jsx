@@ -3,7 +3,6 @@ import {
 	StyleSheet,
 	Text,
 	SafeAreaView,
-	useWindowDimensions,
     TextInput,
 	View
 } from "react-native";
@@ -18,7 +17,6 @@ const AboutYou = ({ navigation }) => {
 	const onBlueButtonPress = () => navigation.navigate("Hi", {
 		paramKey: userName,
 	});
-	const { width } = useWindowDimensions();
 
 	const identities = ["Male", "Female", "Nonbinary", "Prefer not to say"];
 	const [genders, setGenders] = useState(

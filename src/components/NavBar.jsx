@@ -1,5 +1,5 @@
 import React from "react";
-import { Pressable, StyleSheet, Text, View, Image } from "react-native";
+import { Pressable, Text, View, Image } from "react-native";
 
 import homeIcon from "../../assets/nav-bar/home icon.png";
 
@@ -15,5 +15,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-const styles = StyleSheet.create({});

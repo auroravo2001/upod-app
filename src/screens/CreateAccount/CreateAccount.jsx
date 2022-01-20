@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import {
 	StyleSheet,
 	Text,
 	View,
-	useWindowDimensions,
     TextInput,
 } from "react-native";
 
@@ -15,7 +14,6 @@ const CreateAccountScreen = ({ navigation }) => {
 	// blue button submit handler
 	const onBlueButtonPress = () => navigation.push("AboutYou");
 
-	const { width } = useWindowDimensions();
 	return (
 		<CreateAccount>	
             <View style={styles.inputContainer}>

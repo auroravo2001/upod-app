@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import {
-	StyleSheet,
-	Text,
-	useWindowDimensions,
-} from "react-native";
+import { StyleSheet, Text } from "react-native";
 
 import CreateAccount from "../../components/utils/createAcc/CreateAccount";
 import BlueButton from "../../components/utils/createAcc/BlueButton";
@@ -25,7 +21,6 @@ const PreferredLanguage = ({ navigation }) => {
 	// blue button submit handler
 	const onBlueButtonPress = () => navigation.push("CreateAccount");
 
-	const { width } = useWindowDimensions();
 	return (
 		<CreateAccount>
 			<Text style={styles.text}>What is your preferred language?</Text>

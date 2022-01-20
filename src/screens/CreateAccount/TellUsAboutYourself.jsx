@@ -11,10 +11,7 @@ import {
 import BlueButton from "../../components/utils/createAcc/BlueButton";
 
 const TellUsAboutYourself = ({ navigation }) => {
-    const nextFocus = React.useRef(null);
     const onBlueButtonPress = () => navigation.push("Onboarding");
-    const onBackButtonPress = () => navigation.goBack();
-    const { width } = useWindowDimensions();
     const [inputPH, setInputPH] = useState(
         'i.e. tell us what you do, where you are from, what you are looking for in this community (ex. Looking to connect with like-minded solo travelers),why you enjoy group travel etc,. This will help other travelers in the community get to you know you better.'
     );

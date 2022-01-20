@@ -1,10 +1,9 @@
-	import React, { useState } from "react";
+import React from "react";
 import {
 	StyleSheet,
 	Text,
 	View,
 	SafeAreaView,
-	useWindowDimensions,
 	Pressable
 } from "react-native";
 import BlueButton from "../../components/utils/createAcc/BlueButton";
@@ -15,8 +14,6 @@ const Hi = ({ route, navigation }) => {
     // blue button submit handler
 	const onBlueButtonPress = () => navigation.push("TellUsAboutYourself");
 	const onBackButtonPress = () => navigation.goBack();
-	const { width } = useWindowDimensions();
-
 
     return (
         <SafeAreaView style={ styles.container }>
