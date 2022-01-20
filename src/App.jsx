@@ -8,6 +8,10 @@ import Login from "./screens/Login";
 import Signup from "./screens/Signup";
 import Onboarding from "./screens/Onboarding";
 import Location from "./screens/Location";
+import Album from "./screens/AddProfilePic/Album";
+import VerifyPhoto from "./screens/AddProfilePic/VerifyPhoto";
+import VerifyMobileAndEmail from "./screens/Verify/VerifyMobileAndEmail";
+import Profile from "./screens/Profile";
 
 const Stack = createNativeStackNavigator();
 
@@ -22,11 +26,15 @@ function App() {
 				screenOptions={globalOptions}
 			>
 				<Stack.Screen name="Onboarding" component={Onboarding} />
+				<Stack.Screen name="Profile" component={Profile} />
 				<Stack.Screen name="Login" component={Login} />
 				<Stack.Screen name="Signup" component={Signup} />
 				<Stack.Screen name="Location" component={Location} />
 				<Stack.Screen name="Home" component={Home} />
 				<Stack.Screen name="AdventureDetail" component={AdventureDetail} />
+				<Stack.Screen name="Album" component={Album} />
+				<Stack.Screen name="VerifyPhoto" component={VerifyPhoto} />
+				<Stack.Screen name="VerifyMobileAndEmail" component={VerifyMobileAndEmail} />
 			</Stack.Navigator>
 		</NavigationContainer>
 	);
