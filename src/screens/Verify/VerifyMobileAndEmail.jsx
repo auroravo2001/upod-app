@@ -5,12 +5,10 @@ import {
     TextInput,
 	SafeAreaView,
 	useWindowDimensions,
-    Pressable,
 	View, 
-    Image
 } from "react-native";
 
-import BlueButton from "../../components/BlueButton";
+import BlueButton from "../../components/utils/createAcc/BlueButton";
 import DropDownPicker from "react-native-dropdown-picker";
 
 const VerifyMobileAndEmail = ({ navigation }) => {

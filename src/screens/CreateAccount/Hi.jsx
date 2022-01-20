@@ -7,8 +7,7 @@ import {
 	useWindowDimensions,
 	Pressable
 } from "react-native";
-import BlueButton from "../../components/BlueButton";
-import DropDownPicker from "react-native-dropdown-picker";
+import BlueButton from "../../components/utils/createAcc/BlueButton";
 
 const Hi = ({ route, navigation }) => {
 

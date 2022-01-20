@@ -7,8 +7,8 @@ import {
     TextInput,
 } from "react-native";
 
-import CreateAccount from "../../components/CreateAccount";
-import BlueButton from "../../components/BlueButton";
+import CreateAccount from "../../components/utils/createAcc/CreateAccount";
+import BlueButton from "../../components/utils/createAcc/BlueButton";
 
 const CreateAccountScreen = ({ navigation }) => {
 

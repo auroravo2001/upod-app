@@ -10,7 +10,7 @@ import {
     Platform 
 } from "react-native";
 import { AntDesign, Ionicons } from "@expo/vector-icons";
-import LocationList from "../../components/utils/LocationList";
+import LocationList from "../../components/utils/location/LocationList";
 
 const Location = ({ navigation }) => {
 	const nextPress = () => {
@@ -37,7 +37,7 @@ const Location = ({ navigation }) => {
 
     useEffect(() => {
         const getData = async () => {
-          const data = require('../../components/utils/locationDB.json');
+          const data = require('../../components/utils/location/locationDB.json');
           setData(data.locations.slice(0,5));
           setIsPending(false);
         };

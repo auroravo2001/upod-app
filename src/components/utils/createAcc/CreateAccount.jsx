@@ -1,8 +1,8 @@
 import React from "react";
-import { StyleSheet, Text, View, Image } from "react-native";
+import { StyleSheet, Text, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import logo from "../../assets/create-account-screens/man-expeditions-logo.png";
+import logo from "../../../../assets/create-account-screens/man-expeditions-logo.png";
 
 const CreateAccount = ({ children }) => {
 	return (

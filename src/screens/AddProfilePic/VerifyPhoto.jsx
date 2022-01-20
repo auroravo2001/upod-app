@@ -9,7 +9,7 @@ import {
     Image
 } from "react-native";
 
-import BlueButton from "../../components/BlueButton";
+import BlueButton from "../../components/utils/createAcc/BlueButton";
 
 const VerifyPhoto = ({ navigation }) => {
 
