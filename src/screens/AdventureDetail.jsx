@@ -11,6 +11,9 @@ const AdventureDetail = ({ navigation }) => {
 	const albumPress = () => {
 		navigation.navigate("Album");
 	};
+	const profilePress = () => {
+		navigation.navigate("Profile");
+	};
 	const verifyPhotoPress = () => {
 		navigation.navigate("VerifyPhoto");
 	}
@@ -25,6 +28,9 @@ const AdventureDetail = ({ navigation }) => {
 			</Pressable>
 			<Pressable onPress={albumPress} style={styles.buttonStyles}>
 				<Text>album screen</Text>
+			</Pressable>
+			<Pressable onPress={profilePress} style={styles.buttonStyles}>
+				<Text>add profile</Text>
 			</Pressable>
 			<Pressable onPress={verifyPhotoPress} style={styles.buttonStyles}>
 				<Text>verify photo</Text>
