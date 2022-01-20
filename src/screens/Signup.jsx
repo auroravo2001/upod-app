@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Pressable } from "react-native";
 
 const Signup = ({ navigation }) => {
 	const nextPress = () => {
-		navigation.navigate("Login");
+		navigation.navigate("Location");
 	};
 	const prevPress = () => {
 		navigation.goBack();
