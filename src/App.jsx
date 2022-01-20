@@ -12,7 +12,7 @@ import CreateAccount from "./screens/CreateAccount/CreateAccount";
 import AboutYou from "./screens/CreateAccount/AboutYou";
 import Hi from "./screens/CreateAccount/Hi";
 import TellUsAboutYourself from "./screens/CreateAccount/TellUsAboutYourself";
-import Location from "./screens/Location";
+import Location from "./screens/CreateAccount/Location";
 import Album from "./screens/AddProfilePic/Album";
 import VerifyPhoto from "./screens/AddProfilePic/VerifyPhoto";
 import VerifyMobileAndEmail from "./screens/Verify/VerifyMobileAndEmail";
